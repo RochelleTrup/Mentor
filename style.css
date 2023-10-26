@@ -2,7 +2,7 @@
 
 
 .page-border {
-    border: 10px solid rgb(185, 175, 175); /* Adjust border thickness and color as desired */
+    border: 15px solid rgb(185, 175, 175); /* Adjust border thickness and color as desired */
     box-sizing: border-box; /* This ensures padding and border are included in element's total width and height */
     width: calc(100% - 10px); /* Adjust the width considering the border */
     margin: auto; /* Centers the container if there's any horizontal space available */
