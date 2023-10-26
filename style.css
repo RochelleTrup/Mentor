@@ -1,0 +1,201 @@
+
+
+
+.page-border {
+    border: 5px solid rgb(185, 175, 175); /* Adjust border thickness and color as desired */
+    box-sizing: border-box; /* This ensures padding and border are included in element's total width and height */
+    width: calc(100% - 10px); /* Adjust the width considering the border */
+    margin: auto; /* Centers the container if there's any horizontal space available */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif; /* Use your desired font family */
+    font-size: 16px; /* Use your desired font size */
+}
+
+
+
+.flex-wrapper {
+    display: flex;
+    width: 100%; /* Ensuring it takes up full width of its parent or viewport */
+    align-items: stretch;
+    flex-direction: row;
+   
+   
+    
+}
+
+
+.main-title-container {
+    flex: 1;
+    order: 1;
+    display: flex;           /* Use Flexbox */
+    flex-direction: column;  /* Stack children vertically */
+    background-color:  rgb(92, 10, 245);
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;       /* Make text bold */
+    text-align: center;
+   
+}
+
+
+.border-container {
+    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
+    order: 2; /* This will place the border-container second (or to the right) */
+}
+
+.border-image {
+    width: 100%; /* Makes the image take up full width of the .border-container */
+    height: 100%;
+}
+
+.border-container2 {
+    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
+    order: 1; /* This will place the border-container second (or to the right) */
+}
+
+.border-image2 {
+    width: 100%; /* Makes the image take up full width of the .border-container */
+    height: 100%;
+}
+
+.main-title-container2 {
+    flex: 1;
+    order: 2;
+    display: flex;           /* Use Flexbox */
+    flex-direction: column;  /* Stack children vertically */
+    background-color: rgb(187, 166, 226);
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;       /* Make text bold */
+    text-align: center;
+}
+
+
+
+.border-container3 {
+    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
+    order: 2; /* This will place the border-container second (or to the right) */
+}
+
+.border-image3 {
+    width: 100%; /* Makes the image take up full width of the .border-container */
+    height: 100%;
+}
+
+.main-title-container3 {
+    flex: 1;
+    order: 1;
+    display: flex;           /* Use Flexbox */
+    flex-direction: column;  /* Stack children vertically */
+    background-color: rgb(92, 10, 245);
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;       /* Make text bold */
+    text-align: center;
+}
+
+.center-quote {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 5px; /* Adjusted to 1px */
+    font-size: 25px;
+    
+    padding-top: 5px;  /* Control the spacing between the line and the text */
+    color:rgb(215, 218, 221);
+}
+
+.explanation {
+    text-align: center;
+    
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.border-container4 {
+    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
+    order: 1; /* This will place the border-container second (or to the right) */
+}
+
+.border-image4 {
+    width: 100%; /* Makes the image take up full width of the .border-container */
+    height: 100%;
+}
+
+.main-title-container4 {
+    flex: 1;
+    order: 2;
+    display: flex;           /* Use Flexbox */
+    flex-direction: column;  /* Stack children vertically */
+    background-color: rgb(187, 166, 226);
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;       /* Make text bold */
+    text-align: center;
+}
+
+.border-container5 {
+    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
+    order: 2; /* This will place the border-container second (or to the right) */
+}
+
+.border-image5 {
+    width: 100%; /* Makes the image take up full width of the .border-container */
+    height: 100%;
+}
+
+.main-title-container5 {
+    flex: 1;
+    order: 1;
+    display: flex;           /* Use Flexbox */
+    flex-direction: column;  /* Stack children vertically */
+    background-color: rgb(92, 10, 245);
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;       /* Make text bold */
+    text-align: center;
+}
+
+ul.list-unstyled {
+    padding-left: 0;  /* Removes left padding */
+    list-style-type: none;  /* Removes the bullets */
+}
+
+.custom-button {
+    display: block;          /* This makes the button a block element, allowing the use of auto margins */
+    margin-left: auto;       /* Centers the button */
+    margin-right: auto;
+    padding: 6px 20px;       /* Reduced the vertical padding to make it shorter */
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #007BFF; /* Change this to the desired background color */
+    color: #fff;
+    transition: background-color 0.3s ease;
+    width: 50%;              /* Optionally set a width if you want the button to have a specific width */
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+
+}
+
+
+
+
+
+
+
+
+
+

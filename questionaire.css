@@ -1,0 +1,30 @@
+.center-quote {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 3px; /* Adjusted to 1px */
+    border-top: 2px solid rgb(63, 128, 214); /* Add a top border with a specific color and thickness */
+    font-size: 20px;
+    padding-top: 10px;  /* Control the spacing between the line and the text */
+    color:rgb(63, 128, 214);
+}
+
+.explanation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: rgb(63, 128, 214);
+}
+
+ol li {
+    margin-bottom: 10px;  /* Adjust this value as needed for ordered lists */
+}
+
+ol li ul li {
+    margin-bottom: 0;  /* Removes the additional space for unordered list items inside ordered lists */
+}
+
+
