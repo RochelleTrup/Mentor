@@ -40,6 +40,7 @@ body {
     padding-left: 15px;
     font-weight: bold;       /* Make text bold */
     text-align: center;
+    padding-top: 40px;
    
 }
 
@@ -74,6 +75,7 @@ body {
     padding-left: 15px;
     font-weight: bold;       /* Make text bold */
     text-align: center;
+    padding-top: 40px;
 }
 
 
@@ -98,6 +100,7 @@ body {
     padding-left: 15px;
     font-weight: bold;       /* Make text bold */
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .center-quote {
@@ -139,6 +142,8 @@ body {
     padding-left: 15px;
     font-weight: bold;       /* Make text bold */
     text-align: center;
+    padding-bottom: 40px;
+    padding-top:40px;
 }
 
 .border-container5 {
@@ -161,6 +166,8 @@ body {
     padding-left: 15px;
     font-weight: bold;       /* Make text bold */
     text-align: center;
+    padding-bottom: 40px;
+    padding-top:40px;
 }
 
 ul.list-unstyled {
