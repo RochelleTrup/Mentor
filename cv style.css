@@ -38,7 +38,7 @@ img {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     text-align: left; /* Center the text horizontally */  
-    padding-top: 33px;
+    padding-top: 31px;
   
     
 }
@@ -104,25 +104,6 @@ img {
 }
 
 
-.list-container ul {
-   
-    padding: 0;
-    margin-bottom: 20px;
-    list-style-type: none; /* This will remove the bullet points */
-    
-}
-
-.list-container li {
-    margin-bottom: 10px;
-    
-}
-
-
-
-.icon-colored {
-    color: rgb(41, 142, 224);
-}
-
 /* Main content section styles */
 .main-content {
     flex-grow: 1;
@@ -150,6 +131,30 @@ img {
     
     
 }
+
+.list-container ul {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.list-container li {
+    margin-bottom: 10px;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+    list-style-type: none;  /* No bullet points for this class */
+}
+
+ul.custom-colored-bullet-list {
+    padding-left: 0;
+    list-style-type: disc;  /* Bullet points for this class */
+}
+
+.icon-colored {
+    color: rgb(41, 142, 224);
+}
+
 
 .position-career {
     margin-top: 50px;
