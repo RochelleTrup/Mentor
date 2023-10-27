@@ -28,8 +28,6 @@ body {
 
 
 
-
-
 .border-container {
     flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
     order: 2; /* This will place the border-container second (or to the right) */
@@ -90,14 +88,6 @@ body {
     font-weight: bold;
     padding-top: 5px;  /* Control the spacing between the line and the text */
     color:rgb(215, 218, 221);
-
-
-
-   
-
-ul.list-unstyled {
-    padding-left: 0;  /* Removes left padding */
-    list-style-type: none;  /* Removes the bullets */
 }
 
 .custom-button {
@@ -120,6 +110,11 @@ ul.list-unstyled {
 .custom-button:hover {
     background-color: #0056b3; /* Darker shade for hover */
 
+}
+
+ul.list-unstyled {
+    padding-left: 0;  /* Removes left padding */
+    list-style-type: none;  /* Removes the bullets */
 }
 
 
