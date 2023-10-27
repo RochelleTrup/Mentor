@@ -104,7 +104,8 @@ body {
     background-color: #007BFF; /* Change this to the desired background color */
     color: #fff;
     transition: background-color 0.3s ease;
-    width: 50%;              /* Optionally set a width if you want the button to have a specific width */
+    width: 25%;   
+    margin-top: 15px;           /* Optionally set a width if you want the button to have a specific width */
 }
 
 .custom-button:hover {
