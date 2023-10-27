@@ -178,5 +178,6 @@ img {
     text-align: center; /* Centers the text horizontally */
     /* Other styling properties like padding, margin, color, etc. can go here */
     font-style: italic;
+    font-weight: bold;
 }
 
