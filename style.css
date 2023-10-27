@@ -112,7 +112,7 @@ body {
     margin-top: 20px;
     margin-bottom: 5px; /* Adjusted to 1px */
     font-size: 20px;
-    
+    font-weight: bold;
     padding-top: 5px;  /* Control the spacing between the line and the text */
     color:rgb(215, 218, 221);
 
