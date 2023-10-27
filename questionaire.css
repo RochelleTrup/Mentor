@@ -3,9 +3,9 @@
     font-style: italic;
     margin-top: 20px;
     margin-bottom: 3px; /* Adjusted to 1px */
-    border-top: 2px solid rgb(63, 128, 214); /* Add a top border with a specific color and thickness */
+    border-top: 2px solid rgb(63, 128, 214);
     font-size: 20px;
-    padding-top: 10px;  /* Control the spacing between the line and the text */
+    padding-top: 10px;
     color:rgb(63, 128, 214);
 }
 
@@ -14,17 +14,31 @@
     margin-bottom: 20px;
 }
 
-
 h2 {
     color: rgb(63, 128, 214);
 }
 
-ol li {
-    margin-bottom: 10px;  /* Adjust this value as needed for ordered lists */
+/* Reset default padding and margin for lists */
+ol, ul {
+    margin: 0;
 }
 
-ol li ul li {
-    margin-bottom: 0;  /* Removes the additional space for unordered list items inside ordered lists */
+/* Add some padding to the left to see bullets/numbers */
+ul {
+    padding-left: 40px;
 }
 
+ol {
+    padding-left: 20px;
+}
+
+/* Add space below each main list item in the ordered list */
+ol > li {
+    margin-bottom: 10px;  
+}
+
+/* Remove space for sub-list items (unordered list items inside ordered lists) */
+ol > li > ul > li {
+    margin-bottom: 0;  
+}
 
