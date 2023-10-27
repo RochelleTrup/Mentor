@@ -108,6 +108,7 @@ img {
    
     padding: 0;
     margin-bottom: 20px;
+    list-style-type: none; /* This will remove the bullet points */
     
 }
 
