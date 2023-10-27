@@ -1,6 +1,3 @@
-
-
-
 .page-border {
     border: 15px solid rgb(185, 175, 175); /* Adjust border thickness and color as desired */
     box-sizing: border-box; /* This ensures padding and border are included in element's total width and height */
@@ -30,6 +27,19 @@ body {
 }
 
 
+
+
+
+.border-container {
+    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
+    order: 2; /* This will place the border-container second (or to the right) */
+}
+
+.border-image {
+    width: 100%; /* Makes the image take up full width of the .border-container */
+    height: 100%;
+}
+
 .main-title-container {
     flex: 1;
     order: 1;
@@ -43,17 +53,6 @@ body {
     padding-top: 40px;
     padding-bottom:40px;
    
-}
-
-
-.border-container {
-    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
-    order: 2; /* This will place the border-container second (or to the right) */
-}
-
-.border-image {
-    width: 100%; /* Makes the image take up full width of the .border-container */
-    height: 100%;
 }
 
 .border-container2 {
@@ -82,30 +81,6 @@ body {
 
 
 
-.border-container3 {
-    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
-    order: 2; /* This will place the border-container second (or to the right) */
-}
-
-.border-image3 {
-    width: 100%; /* Makes the image take up full width of the .border-container */
-    height: 100%;
-}
-
-.main-title-container3 {
-    flex: 1;
-    order: 1;
-    display: flex;           /* Use Flexbox */
-    flex-direction: column;  /* Stack children vertically */
-    background-color: rgb(92, 10, 245);
-    color: white;
-    padding-left: 15px;
-    font-weight: bold;       /* Make text bold */
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top:40px;
-}
-
 .center-quote {
     text-align: center;
     font-style: italic;
@@ -118,53 +93,7 @@ body {
 
 
 
-.border-container4 {
-    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
-    order: 1; /* This will place the border-container second (or to the right) */
-}
-
-.border-image4 {
-    width: 100%; /* Makes the image take up full width of the .border-container */
-    height: 100%;
-}
-
-.main-title-container4 {
-    flex: 1;
-    order: 2;
-    display: flex;           /* Use Flexbox */
-    flex-direction: column;  /* Stack children vertically */
-    background-color: rgb(187, 166, 226);
-    color: white;
-    padding-left: 15px;
-    font-weight: bold;       /* Make text bold */
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top:40px;
-}
-
-.border-container5 {
-    flex: 0 0 25%; /* This ensures it doesn't grow or shrink, but stays at 35% width */
-    order: 2; /* This will place the border-container second (or to the right) */
-}
-
-.border-image5 {
-    width: 100%; /* Makes the image take up full width of the .border-container */
-    height: 100%;
-}
-
-.main-title-container5 {
-    flex: 1;
-    order: 1;
-    display: flex;           /* Use Flexbox */
-    flex-direction: column;  /* Stack children vertically */
-    background-color: rgb(92, 10, 245);
-    color: white;
-    padding-left: 15px;
-    font-weight: bold;       /* Make text bold */
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top:40px;
-}
+   
 
 ul.list-unstyled {
     padding-left: 0;  /* Removes left padding */
@@ -192,13 +121,5 @@ ul.list-unstyled {
     background-color: #0056b3; /* Darker shade for hover */
 
 }
-
-
-
-
-
-
-
-
 
 
