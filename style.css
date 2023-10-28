@@ -1,9 +1,4 @@
-.page-border {
-    border: 15px solid rgb(185, 175, 175); /* Adjust border thickness and color as desired */
-    box-sizing: border-box; /* This ensures padding and border are included in element's total width and height */
-    width: calc(100% - 10px); /* Adjust the width considering the border */
-    margin: auto; /* Centers the container if there's any horizontal space available */
-}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -43,8 +38,8 @@ body {
     order: 1;
     display: flex;           /* Use Flexbox */
     flex-direction: column;  /* Stack children vertically */
-    background-color:  rgb(92, 10, 245);
-    color: white;
+    background-color:  rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding-left: 15px;
     font-weight: bold;       /* Make text bold */
     text-align: center;
@@ -68,8 +63,8 @@ body {
     order: 2;
     display: flex;           /* Use Flexbox */
     flex-direction: column;  /* Stack children vertically */
-    background-color: rgb(187, 166, 226);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding-left: 15px;
     font-weight: bold;       /* Make text bold */
     text-align: center;
@@ -87,7 +82,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding-top: 5px;  /* Control the spacing between the line and the text */
-    color:rgb(215, 218, 221);
+    color:rgb(77, 79, 81);
 }
 
 .custom-button {
