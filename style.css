@@ -4,7 +4,7 @@
 
 .block1 {
     flex: 0 0 70%;
-    background-image: url('path_to_your_image.jpg');
+    background-image: url('background faded.png');
     background-size: cover;
     background-position: center;
     display: flex;
