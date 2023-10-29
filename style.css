@@ -1,120 +1,110 @@
-.flex-wrapper {
+.wrapper {
+    display: flex;  /* Set the wrapper as a flex container */
+}
+
+.block1 {
+    flex: 0 0 70%;
+    background-color: #d0bfd6;
+
+    background-size: cover;
+    background-position: center;
     display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;  
+}
+
+.section {
+    border-bottom: 2px solid #000;  
+    padding-bottom: 16px;  
+    margin-bottom: 16px; 
+    width: 70%;
+    text-align: center;  /* Center the text horizontally */
+
+    /* Center the content vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.blocks-2-and-3 {
+    flex: 0 0 30%;  /* This will occupy the remaining 30% of the parent width */
+    display: grid;  /* Make it a grid container to stack block 2 and block 3 vertically */
+    grid-template-rows: 50% 50%;  /* Adjust percentages as required. Here block2 takes 60% of parent height and block3 takes 40% */
+}
+
+.block2 {
+    /* Adjust width and height if necessary */
     width: 100%;
-    align-items: stretch;
-    flex-direction: column;
-    
-    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
 }
 
-body {
-    font-size: 22px; /* Or whatever size you prefer */
-    font-size: 22px; 
-    
+.block2 img {
+    width: 100%;          /* Make the image width match the container width */
+    height: 100%;         /* Make the image height match the container height */
+    object-fit: contain;  /* This will scale the image to fit inside the container without cropping */
+    object-position: center; /* This will center the image within its container. */
+    display: block;      /* Remove default line height/margin around the image */
+    margin: 0;
+    padding: 0;
 }
 
 
-
-.heading {
-    text-align: center;
-    position: relative;
-    padding-bottom: 50px;
-    
-}
-
-.heading::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 20px;
-}
-
-.header-image {
-    width: 200px;
-    height: auto;
-}
-
-h1 {
-    color: #2273e5;
-    position: relative;
-    padding-bottom: 10px;
-    font-size: 2em; /* Increased size */
-}
-
-h3 {
-    color: #2273e5;
-    position: relative;
-    padding-bottom: 10px;
-    
-}
-
-h3::after {
-    content: "";
-    display: block;
-    width: 80%;
-    height: 2px;
-    background-color: #2273e5;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-h4 {
-    color: #2273e5;
-    position: relative;
-    padding-bottom: 10px;
-    
-}
-
-.main-title-container {
-    flex: 1;
-    order: 1;
+.block3 {
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 40px;
-}
-
-.center-quote {
-    text-align: center;
-    font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 24px; /* Increased size */
-    font-weight: bold;
-    padding-top: 5px;
-    color: rgb(5, 5, 5);
-}
-
-.custom-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 6px 20px;
-    font-size: 18px; /* Increased size */
-    font-weight: 600;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: #e0e8f2;
-    color: #2273e5;
-    transition: background-color 0.3s ease;
-    width: 20%;
-    margin-top: 15px;
-}
-
-.custom-button:hover {
-    background-color: #9ab6de;
+    justify-content: flex-start;  /* Align content to the top vertically */
+    align-items: center;          /* Center horizontally */
+    width: 100%;
+    height: 100%;
+    grid-template-rows: auto auto; 
+    margin: 0;
+    padding: 0;
+    
 }
 
 ul.list-unstyled {
     padding-left: 0;
     list-style-type: none;
 }
+
+.custom-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 6px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #7a4ef1;
+    color: #fdfdfd;
+    transition: background-color 0.3s ease;
+    width: 40%;
+    text-align: center;  /* This will center the text inside the button */
+}
+ 
+}
+
+
+.custom-button:hover {
+    background-color: #9ab6de;
+}
+
+
+
+
+
+
+
+
+
