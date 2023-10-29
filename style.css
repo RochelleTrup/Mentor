@@ -4,8 +4,7 @@
 
 .block1 {
     flex: 0 0 70%;
-    background-color: #d0bfd6;
-
+    background-image: url('path_to_your_image.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
