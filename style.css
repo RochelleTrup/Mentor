@@ -29,10 +29,13 @@
 }
 
 
+
+
 .section {
     border-bottom: 2px solid #000;  
     padding-bottom: 16px;  
     margin-bottom: 16px; 
+    
     width: 70%;
     text-align: center;  /* Center the text horizontally */
 
@@ -111,13 +114,6 @@ ul.list-unstyled {
     transition: background-color 0.3s ease;
     width: 40%;
     text-align: center;  /* This will center the text inside the button */
-}
- 
-
-
-
-.custom-button:hover {
-    background-color: #9ab6de;
 }
 
 
