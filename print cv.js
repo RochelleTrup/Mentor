@@ -1,4 +1,4 @@
-// Inside script.js
-function printPage() {
+
+function printDocument() {
     window.print();
 }
