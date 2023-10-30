@@ -1,3 +1,9 @@
+
+.container {
+    padding: 20px; /* You can adjust this value to your desired padding */
+}
+
+
 .center-quote {
     text-align: center;
     font-style: italic;
