@@ -1,6 +1,10 @@
 .wrapper {
     display: flex;  /* Set the wrapper as a flex container */
+    flex-direction: row
+    
 }
+
+
 
 .block1 {
     flex: 0 0 70%;
@@ -12,6 +16,7 @@
     align-items: center;     
     flex-direction: column;  
 }
+
 
 .section {
     border-bottom: 2px solid #000;  
@@ -31,16 +36,21 @@
 
 .blocks-2-and-3 {
     flex: 0 0 30%;  /* This will occupy the remaining 30% of the parent width */
+    width: 100%; 
     display: grid;  /* Make it a grid container to stack block 2 and block 3 vertically */
     grid-template-rows: 50% 50%;  /* Adjust percentages as required. Here block2 takes 60% of parent height and block3 takes 40% */
+    grid-gap: 0; /* This removes any space between the grid items */
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .block2 {
     /* Adjust width and height if necessary */
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
+    flex: 0 0 30%;
    
 }
 
@@ -50,8 +60,7 @@
     object-fit: contain;  /* This will scale the image to fit inside the container without cropping */
     object-position: center; /* This will center the image within its container. */
     display: block;      /* Remove default line height/margin around the image */
-    margin: 0;
-    padding: 0;
+    
 }
 
 
@@ -63,8 +72,9 @@
     width: 100%;
     height: 100%;
     grid-template-rows: auto auto; 
-    margin: 0;
-    padding: 0;
+    flex: 0 0 30%;
+    padding-top: 0%;
+    padding-bottom: 50px;
     
 }
 
@@ -92,7 +102,7 @@ ul.list-unstyled {
     text-align: center;  /* This will center the text inside the button */
 }
  
-}
+
 
 
 .custom-button:hover {
