@@ -1,5 +1,0 @@
-
-    function printDocument() {
-        window.print();
-    }
-
